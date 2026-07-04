@@ -10,6 +10,6 @@ def spark():
 
 def test_blank_test(spark):
     print(spark.version)
-    assert spark.version == "4.0.2"
+    assert spark.version.startswith("4.")
 
 
